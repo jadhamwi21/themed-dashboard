@@ -1,0 +1,87 @@
+:root {
+	--dashboardBackgroundColor: #f4f4f8;
+	--headerBackgroundColor: #ececf1;
+	--sidebarBackgroundColor: #333547;
+	--dashboardContainersBackgroundColor: white;
+	--dashboardCardsBackgroundColor: #626ed4;
+	--dashboardTextColor: #5b626b;
+	--dashboardCardsTextColor: white;
+}
+/* Use this selector to override the line style on a given series */
+.ct-series-a .ct-line {
+	/* Set the colour of this series line */
+	stroke: #626ed4 !important;
+	/* Control the thikness of your lines */
+	stroke-width: 3px !important;
+	/* Create a dashed line with a pattern */
+}
+
+/* This selector overrides the points style on line charts. Points on line charts are actually just very short strokes. This allows you to customize even the point size in CSS */
+.ct-series-a .ct-point {
+	/* Colour of your points */
+	stroke: #626ed4 !important;
+	/* Size of your points */
+	stroke-width: 7px !important;
+	/* Make your points appear as squares */
+	stroke-linecap: circle !important;
+	position: relative;
+}
+.ct-label.ct-horizontal.ct-end {
+	color: #adb5bd;
+}
+.ct-label.ct-vertical.ct-start {
+	color: #adb5bd;
+}
+.ct-series-a .ct-area,
+.ct-series-a .ct-slice-donut-solid,
+.ct-series-a .ct-slice-pie {
+	fill: #1527cc !important;
+	fill-opacity: 0.33 !important;
+}
+
+.ct-chart {
+	position: relative;
+	padding: 0px !important;
+	width: 100px;
+}
+.chartist-tooltip {
+	position: absolute;
+	display: inline-block;
+	opacity: 0;
+	width: fit-content;
+	height: fit-content;
+	font-size: 13px;
+	background: #453d3f;
+	color: white;
+	font-family: inherit;
+	border-radius: 3px;
+	text-align: center;
+	pointer-events: none;
+	padding: 6px;
+	line-height: 1;
+	z-index: 1;
+	-webkit-transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-o-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+}
+
+.chartist-tooltip.tooltip-show {
+	opacity: 1;
+}
+.stroke1 {
+	stroke: #626ed4 !important;
+}
+.stroke2 {
+	stroke: #02a499 !important;
+}
+.stroke3 {
+	stroke: #f8b425 !important;
+}
+
+/* @media (max-width: 768px) {
+	.ct-chart.ct-square {
+		height: 280px;
+		padding: 0px !important;
+	}
+} */

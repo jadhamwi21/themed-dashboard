@@ -1,0 +1,38 @@
+.MenuButton {
+	background-color: transparent;
+	height: 70px;
+	width: 56px !important;
+	padding: 0px !important;
+	min-width: initial !important;
+	display: grid;
+	place-items: center;
+	border: none;
+	background-color: transparent !important;
+}
+.LanguageButton {
+	min-width: initial !important;
+	display: grid;
+	place-items: center;
+	border: none;
+	width: 115px !important;
+	height: 70px;
+	text-transform: none !important;
+	margin-left: 6px !important;
+	padding: 0px !important;
+	box-sizing: border-box !important;
+	background-color: transparent !important;
+	color: var(--dashboardTextColor) !important;
+}
+.FullscreenAndNotificationAndAvatarAndSettingsButton {
+	min-width: initial !important;
+	display: grid;
+	place-items: center;
+	border: none;
+	width: 50px !important;
+	height: 70px !important;
+	text-transform: none !important;
+	margin-left: 6px !important;
+	padding: 0px !important;
+	box-sizing: border-box !important;
+	background-color: transparent !important;
+}
